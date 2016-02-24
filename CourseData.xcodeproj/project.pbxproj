@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0C1B011C46FC1200656422 /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0C1B001C46FC1200656422 /* Course+CoreDataProperties.swift */; };
+		CB401F271C77D3970017A16B /* CourseData.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = CB401F261C77D0B20017A16B /* CourseData.sqlite-wal */; };
+		CB401F281C77D3990017A16B /* CourseData.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = CB401F251C77D0B20017A16B /* CourseData.sqlite-shm */; };
+		CB401F291C77D39C0017A16B /* CourseData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CB401F241C77D0B20017A16B /* CourseData.sqlite */; };
+		CB69000A1C4462B0001058AF /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6900081C4462B0001058AF /* Course.swift */; };
+		CB69000D1C44690D001058AF /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB69000B1C44690D001058AF /* Cells.swift */; };
+		CB6900101C446A54001058AF /* SubjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB69000F1C446A54001058AF /* SubjectTableViewController.swift */; };
 		CB69FFCF1C4450B3001058AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB69FFCE1C4450B3001058AF /* AppDelegate.swift */; };
-		CB69FFD11C4450B3001058AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB69FFD01C4450B3001058AF /* ViewController.swift */; };
+		CB69FFD11C4450B3001058AF /* Str.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB69FFD01C4450B3001058AF /* Str.swift */; };
 		CB69FFD41C4450B3001058AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB69FFD21C4450B3001058AF /* Main.storyboard */; };
 		CB69FFD71C4450B3001058AF /* CourseData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB69FFD51C4450B3001058AF /* CourseData.xcdatamodeld */; };
 		CB69FFD91C4450B3001058AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB69FFD81C4450B3001058AF /* Assets.xcassets */; };
@@ -35,18 +42,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB0C1B001C46FC1200656422 /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Course+CoreDataProperties.swift"; path = "../Course+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CB401F241C77D0B20017A16B /* CourseData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CourseData.sqlite; sourceTree = "<group>"; };
+		CB401F251C77D0B20017A16B /* CourseData.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CourseData.sqlite-shm"; sourceTree = "<group>"; };
+		CB401F261C77D0B20017A16B /* CourseData.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CourseData.sqlite-wal"; sourceTree = "<group>"; };
+		CB6900081C4462B0001058AF /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Course.swift; path = ../Course.swift; sourceTree = "<group>"; };
+		CB69000B1C44690D001058AF /* Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		CB69000F1C446A54001058AF /* SubjectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectTableViewController.swift; sourceTree = "<group>"; };
 		CB69FFCB1C4450B3001058AF /* CourseData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB69FFCE1C4450B3001058AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB69FFD01C4450B3001058AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB69FFD01C4450B3001058AF /* Str.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Str.swift; sourceTree = "<group>"; };
 		CB69FFD31C4450B3001058AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB69FFD61C4450B3001058AF /* CourseData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CourseData.xcdatamodel; sourceTree = "<group>"; };
 		CB69FFD81C4450B3001058AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB69FFDB1C4450B3001058AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB69FFDD1C4450B3001058AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB69FFE21C4450B3001058AF /* CourseDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB69FFE21C4450B3001058AF /* CourseData.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseData.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB69FFE61C4450B3001058AF /* CourseDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDataTests.swift; sourceTree = "<group>"; };
 		CB69FFE81C4450B3001058AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB69FFED1C4450B3001058AF /* CourseDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB69FFED1C4450B3001058AF /* CourseData.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseData.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB69FFF11C4450B3001058AF /* CourseDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDataUITests.swift; sourceTree = "<group>"; };
 		CB69FFF31C4450B3001058AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,8 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				CB69FFCB1C4450B3001058AF /* CourseData.app */,
-				CB69FFE21C4450B3001058AF /* CourseDataTests.xctest */,
-				CB69FFED1C4450B3001058AF /* CourseDataUITests.xctest */,
+				CB69FFE21C4450B3001058AF /* CourseData.xctest */,
+				CB69FFED1C4450B3001058AF /* CourseData.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +113,14 @@
 		CB69FFCD1C4450B3001058AF /* CourseData */ = {
 			isa = PBXGroup;
 			children = (
-				CB69FFCE1C4450B3001058AF /* AppDelegate.swift */,
-				CB69FFD01C4450B3001058AF /* ViewController.swift */,
+				CB77D5041C499F2E00B8BC82 /* Data */,
+				CB69FFD01C4450B3001058AF /* Str.swift */,
+				CB69000F1C446A54001058AF /* SubjectTableViewController.swift */,
+				CB69000B1C44690D001058AF /* Cells.swift */,
 				CB69FFD21C4450B3001058AF /* Main.storyboard */,
 				CB69FFD81C4450B3001058AF /* Assets.xcassets */,
 				CB69FFDA1C4450B3001058AF /* LaunchScreen.storyboard */,
 				CB69FFDD1C4450B3001058AF /* Info.plist */,
-				CB69FFD51C4450B3001058AF /* CourseData.xcdatamodeld */,
 			);
 			path = CourseData;
 			sourceTree = "<group>";
@@ -126,6 +141,20 @@
 				CB69FFF31C4450B3001058AF /* Info.plist */,
 			);
 			path = CourseDataUITests;
+			sourceTree = "<group>";
+		};
+		CB77D5041C499F2E00B8BC82 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CB401F241C77D0B20017A16B /* CourseData.sqlite */,
+				CB401F251C77D0B20017A16B /* CourseData.sqlite-shm */,
+				CB401F261C77D0B20017A16B /* CourseData.sqlite-wal */,
+				CB69FFCE1C4450B3001058AF /* AppDelegate.swift */,
+				CB6900081C4462B0001058AF /* Course.swift */,
+				CB0C1B001C46FC1200656422 /* Course+CoreDataProperties.swift */,
+				CB69FFD51C4450B3001058AF /* CourseData.xcdatamodeld */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +192,7 @@
 			);
 			name = CourseDataTests;
 			productName = CourseDataTests;
-			productReference = CB69FFE21C4450B3001058AF /* CourseDataTests.xctest */;
+			productReference = CB69FFE21C4450B3001058AF /* CourseData.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		CB69FFEC1C4450B3001058AF /* CourseDataUITests */ = {
@@ -181,7 +210,7 @@
 			);
 			name = CourseDataUITests;
 			productName = CourseDataUITests;
-			productReference = CB69FFED1C4450B3001058AF /* CourseDataUITests.xctest */;
+			productReference = CB69FFED1C4450B3001058AF /* CourseData.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -196,6 +225,7 @@
 				TargetAttributes = {
 					CB69FFCA1C4450B3001058AF = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UFEDQ34U83;
 					};
 					CB69FFE11C4450B3001058AF = {
 						CreatedOnToolsVersion = 7.2;
@@ -232,8 +262,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB401F281C77D3990017A16B /* CourseData.sqlite-shm in Resources */,
+				CB401F271C77D3970017A16B /* CourseData.sqlite-wal in Resources */,
 				CB69FFDC1C4450B3001058AF /* LaunchScreen.storyboard in Resources */,
 				CB69FFD91C4450B3001058AF /* Assets.xcassets in Resources */,
+				CB401F291C77D39C0017A16B /* CourseData.sqlite in Resources */,
 				CB69FFD41C4450B3001058AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0C1B011C46FC1200656422 /* Course+CoreDataProperties.swift in Sources */,
 				CB69FFD71C4450B3001058AF /* CourseData.xcdatamodeld in Sources */,
-				CB69FFD11C4450B3001058AF /* ViewController.swift in Sources */,
+				CB69FFD11C4450B3001058AF /* Str.swift in Sources */,
+				CB69000A1C4462B0001058AF /* Course.swift in Sources */,
+				CB69000D1C44690D001058AF /* Cells.swift in Sources */,
+				CB6900101C446A54001058AF /* SubjectTableViewController.swift in Sources */,
 				CB69FFCF1C4450B3001058AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +392,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = CourseData;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -392,6 +430,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CourseData;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -401,10 +440,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CourseData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = charleo.CourseData;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iris.study;
+				PRODUCT_NAME = CourseData;
+				PROVISIONING_PROFILE = "";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -412,10 +455,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CourseData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = charleo.CourseData;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iris.study;
+				PRODUCT_NAME = CourseData;
+				PROVISIONING_PROFILE = "";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -426,8 +473,8 @@
 				INFOPLIST_FILE = CourseDataTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = charleo.CourseDataTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CourseData.app/CourseData";
+				PRODUCT_NAME = CourseData;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CourseData.temp_caseinsensitive_rename.app/CourseData.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -438,8 +485,8 @@
 				INFOPLIST_FILE = CourseDataTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = charleo.CourseDataTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CourseData.app/CourseData";
+				PRODUCT_NAME = CourseData;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CourseData.temp_caseinsensitive_rename.app/CourseData.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -449,7 +496,7 @@
 				INFOPLIST_FILE = CourseDataUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = charleo.CourseDataUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CourseData;
 				TEST_TARGET_NAME = CourseData;
 				USES_XCTRUNNER = YES;
 			};
@@ -461,7 +508,7 @@
 				INFOPLIST_FILE = CourseDataUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = charleo.CourseDataUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CourseData;
 				TEST_TARGET_NAME = CourseData;
 				USES_XCTRUNNER = YES;
 			};
@@ -486,6 +533,7 @@
 				CB69FFF81C4450B3001058AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB69FFF91C4450B3001058AF /* Build configuration list for PBXNativeTarget "CourseDataTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +542,7 @@
 				CB69FFFB1C4450B3001058AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB69FFFC1C4450B3001058AF /* Build configuration list for PBXNativeTarget "CourseDataUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +551,7 @@
 				CB69FFFE1C4450B3001058AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

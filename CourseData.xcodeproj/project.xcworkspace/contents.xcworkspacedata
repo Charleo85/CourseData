@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CourseData.xcodeproj">
+      location = "self:/Users/apple/Desktop/CourseData/CourseData.xcodeproj">
    </FileRef>
 </Workspace>
