@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (3.5.0)
+  - Fuzi (0.3.1)
+  - pop (1.0.9)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.3)
+  - Fuzi
+  - pop
+
+SPEC CHECKSUMS:
+  Alamofire: b70a7352335f8ea5babd0a923eb7e8eacc67b877
+  Fuzi: 25118b725a1637f1676f63ae1acbba1f30a5dd6c
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+
+PODFILE CHECKSUM: 1ef963a378d30a6716625a420cdc9b2b61e79e7e
+
+COCOAPODS: 1.0.1
